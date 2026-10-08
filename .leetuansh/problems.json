@@ -1,0 +1,25 @@
+{
+ "69": {
+  "id": "69",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "4 ms",
+    "memory": "19.2 MB",
+    "rtPct": 48.765600000000006,
+    "memPct": 54.762800000000006
+   }
+  },
+  "title": "Sqrt(x)",
+  "slug": "sqrtx",
+  "difficulty": "Easy",
+  "dir": "Easy/0069-sqrtx",
+  "topics": [
+   "Math",
+   "Binary Search",
+   "Newton's Method"
+  ],
+  "date": "2026-10-08"
+ }
+}
