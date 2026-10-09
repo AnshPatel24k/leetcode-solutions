@@ -71,6 +71,30 @@
   "date": "2026-10-08",
   "notes": "Approach:\nThe problem is solved using a recursive depth-first traversal. We check if both nodes are null (equal), if only one of them is null (not equal), and if their values differ (not equal). If none of these conditions are met, we recursively check if their left and right subtrees are identical.\n\nTime: O(N) where N is the number of nodes in the smaller tree, as we visit each node at most once.\nSpace: O(H) where H is the height of the tree, representing the maximum call stack depth (O(N) in the worst case of a completely unbalanced tree)."
  },
+ "921": {
+  "id": "921",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "0 ms",
+    "memory": "19.3 MB",
+    "rtPct": 100,
+    "memPct": 49.47130000000001
+   }
+  },
+  "title": "Minimum Add to Make Parentheses Valid",
+  "slug": "minimum-add-to-make-parentheses-valid",
+  "difficulty": "Medium",
+  "dir": "Medium/0921-minimum-add-to-make-parentheses-valid",
+  "topics": [
+   "String",
+   "Stack",
+   "Greedy",
+   "Bracket Sequences"
+  ],
+  "date": "2026-10-09"
+ },
  "1541": {
   "id": "1541",
   "langs": {
