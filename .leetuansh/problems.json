@@ -1,4 +1,28 @@
 {
+ "15": {
+  "id": "15",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "493 ms",
+    "memory": "22.3 MB",
+    "rtPct": 87.27700000000091,
+    "memPct": 55.783600000000064
+   }
+  },
+  "title": "3Sum",
+  "slug": "3sum",
+  "difficulty": "Medium",
+  "dir": "Medium/0015-3sum",
+  "topics": [
+   "Array",
+   "Two Pointers",
+   "Sorting"
+  ],
+  "date": "2026-10-09",
+  "notes": "Approach: Sort the array and use a three-pointer technique. Iterate through the array with a fixed element, and use a two-pointer approach for the remaining elements to find pairs that sum to the target. Skip duplicates to ensure the triplets are unique, and break early when the fixed element is positive.\nTime: O(n^2)\nSpace: O(n) for the sorting overhead in Python (Timsort) or O(1) if sorting in-place without auxiliary space."
+ },
  "69": {
   "id": "69",
   "langs": {

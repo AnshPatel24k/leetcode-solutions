@@ -4,10 +4,11 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**3 solved** | Easy 2 | Medium 1 | Hard 0
+**4 solved** | Easy 2 | Medium 2 | Hard 0
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | Array, Two Pointers, Sorting | [python3](Medium/0015-3sum/solution.py) | 2026-10-09 |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | Math, Binary Search, Newton's Method | [python3](Easy/0069-sqrtx/solution.py) | 2026-10-08 |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [python3](Easy/0100-same-tree/solution.py) | 2026-10-08 |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | Medium | String, Stack, Greedy, Bracket Sequences | [python3](Medium/1541-minimum-insertions-to-balance-a-parentheses-string/solution.py) | 2026-09-30 |
