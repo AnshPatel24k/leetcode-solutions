@@ -119,5 +119,31 @@
   ],
   "date": "2026-09-30",
   "notes": "An elegant greedy approach can be used to solve this problem. We can iterate through the string and keep track of two variables:\n1. `insertions`: the number of characters we need to insert to balance the string.\n2. `right_needed`: the number of right parentheses `)` we currently need to match the open parentheses `(` we have seen so far.\n\nSince each `(` needs two `)` to balance:\n- When we encounter a `(`, we need 2 more `)`. If our current `right_needed` is odd, it means there is a previous `(` that has only matched one `)`. Because we are now starting a new `(` group, we must immediately insert a `)` to complete the previous pair. Thus, we increment `insertions` by 1 and decrement `right_needed` by 1 before adding the 2 needed for the new `(`.\n- When we encounter a `)`, we decrement `right_needed` by 1. If `right_needed` becomes `-1` (meaning we got a `)` but had no unmatched `(`), we must insert a `(` before it. A `(` provides 2 `)`. Since we already consumed one `)`, we now need 1 more `)`. So we increment `insertions` by 1 and set `right_needed` to 1.\n\nAt the end of the string, any remaining `right_needed` represents the unmatched `)` that we must insert to balance the remaining open parentheses.\n\n\n\nApproach: We use a greedy approach with a single pass to count the required insertions and the number of right parentheses needed.\nTime: O(N) where N is the length of the string.\nSpace: O(1) auxiliary space."
+ },
+ "2333": {
+  "id": "2333",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "147 ms",
+    "memory": "36.4 MB",
+    "rtPct": 66.25,
+    "memPct": 97.5
+   }
+  },
+  "title": "Minimum Sum of Squared Difference",
+  "slug": "minimum-sum-of-squared-difference",
+  "difficulty": "Medium",
+  "dir": "Medium/2333-minimum-sum-of-squared-difference",
+  "topics": [
+   "Array",
+   "Binary Search",
+   "Greedy",
+   "Sorting",
+   "Heap (Priority Queue)"
+  ],
+  "date": "2026-10-10",
+  "notes": "Approach:\nWe compute the absolute differences between `nums1` and `nums2` and count their frequencies using a bucket array, since the maximum difference is at most $10^5$. We then greedily decrement the largest differences using our budget of $k = k1 + k2$ operations. Finally, we calculate the sum of the squared remaining differences.\n\nTime: O(N + M) where N is the length of the arrays and M is the maximum possible difference (10^5).\nSpace: O(M) to store the frequencies of the differences."
  }
 }
