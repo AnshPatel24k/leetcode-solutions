@@ -145,5 +145,27 @@
   ],
   "date": "2026-10-10",
   "notes": "Approach:\nWe compute the absolute differences between `nums1` and `nums2` and count their frequencies using a bucket array, since the maximum difference is at most $10^5$. We then greedily decrement the largest differences using our budget of $k = k1 + k2$ operations. Finally, we calculate the sum of the squared remaining differences.\n\nTime: O(N + M) where N is the length of the arrays and M is the maximum possible difference (10^5).\nSpace: O(M) to store the frequencies of the differences."
+ },
+ "2778": {
+  "id": "2778",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "0 ms",
+    "memory": "19.3 MB",
+    "rtPct": 100,
+    "memPct": 14.07889999999999
+   }
+  },
+  "title": "Sum of Squares of Special Elements ",
+  "slug": "sum-of-squares-of-special-elements",
+  "difficulty": "Easy",
+  "dir": "Easy/2778-sum-of-squares-of-special-elements",
+  "topics": [
+   "Array",
+   "Enumeration"
+  ],
+  "date": "2026-10-11"
  }
 }
