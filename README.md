@@ -8,7 +8,7 @@ this  is for the leetcode solutions
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Array, Hash Table | [cpp](Easy/0001-two-sum/solution.cpp) | 2026-04-15 |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Array, Hash Table | [cpp](Easy/0001-two-sum/solution.cpp), [python3](Easy/0001-two-sum/solution.py) | 2026-04-15 |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | Array, Two Pointers, Sorting | [python3](Medium/0015-3sum/solution.py) | 2026-10-09 |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | Math, Binary Search, Newton's Method | [python3](Easy/0069-sqrtx/solution.py) | 2026-10-08 |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [python3](Easy/0100-same-tree/solution.py) | 2026-10-08 |

@@ -9,6 +9,14 @@
     "memory": "14.9 MB",
     "rtPct": 100,
     "memPct": 44.734899999999996
+   },
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "0 ms",
+    "memory": "20.7 MB",
+    "rtPct": 100,
+    "memPct": 7.662399999999979
    }
   },
   "title": "Two Sum",
