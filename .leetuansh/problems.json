@@ -1,4 +1,27 @@
 {
+ "1": {
+  "id": "1",
+  "langs": {
+   "cpp": {
+    "lang": "cpp",
+    "file": "solution.cpp",
+    "runtime": "0 ms",
+    "memory": "14.9 MB",
+    "rtPct": 100,
+    "memPct": 44.734899999999996
+   }
+  },
+  "title": "Two Sum",
+  "slug": "two-sum",
+  "difficulty": "Easy",
+  "dir": "Easy/0001-two-sum",
+  "topics": [
+   "Array",
+   "Hash Table"
+  ],
+  "date": "2026-04-15",
+  "notes": "Approach: Use a hash map to store previously seen numbers and their indices, allowing single-pass O(1) lookup for each element's complement.\nTime: O(n)\nSpace: O(n)"
+ },
  "15": {
   "id": "15",
   "langs": {
