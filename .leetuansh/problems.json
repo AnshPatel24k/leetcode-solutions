@@ -167,5 +167,30 @@
    "Enumeration"
   ],
   "date": "2026-10-11"
+ },
+ "2897": {
+  "id": "2897",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "1231 ms",
+    "memory": "32.1 MB",
+    "rtPct": 87.23379999999997,
+    "memPct": 34.0425
+   }
+  },
+  "title": "Apply Operations on Array to Maximize Sum of Squares",
+  "slug": "apply-operations-on-array-to-maximize-sum-of-squares",
+  "difficulty": "Hard",
+  "dir": "Hard/2897-apply-operations-on-array-to-maximize-sum-of-squares",
+  "topics": [
+   "Array",
+   "Hash Table",
+   "Greedy",
+   "Bit Manipulation"
+  ],
+  "date": "2026-10-12",
+  "notes": "Approach: Bitwise operations allow shifting set bits across numbers to construct larger numbers. We count the frequency of set bits at each position and construct the $k$ largest possible numbers by greedily placing set bits into the top elements.\nTime: O(N * B + K * B) where N is length of nums, K is given integer, and B = 30 is the number of bits.\nSpace: O(B) = O(1) auxiliary space to store bit counts."
  }
 }
