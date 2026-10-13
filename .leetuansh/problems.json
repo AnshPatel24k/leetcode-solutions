@@ -223,5 +223,29 @@
   ],
   "date": "2026-10-12",
   "notes": "Approach: Bitwise operations allow shifting set bits across numbers to construct larger numbers. We count the frequency of set bits at each position and construct the $k$ largest possible numbers by greedily placing set bits into the top elements.\nTime: O(N * B + K * B) where N is length of nums, K is given integer, and B = 30 is the number of bits.\nSpace: O(B) = O(1) auxiliary space to store bit counts."
+ },
+ "3727": {
+  "id": "3727",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "135 ms",
+    "memory": "32.7 MB",
+    "rtPct": 97.2527,
+    "memPct": 73.62620000000001
+   }
+  },
+  "title": "Maximum Alternating Sum of Squares",
+  "slug": "maximum-alternating-sum-of-squares",
+  "difficulty": "Medium",
+  "dir": "Medium/3727-maximum-alternating-sum-of-squares",
+  "topics": [
+   "Array",
+   "Greedy",
+   "Sorting"
+  ],
+  "date": "2026-10-13",
+  "notes": "Approach:\nTo maximize the alternating sum of squares, we assign the $\\lceil n / 2 \\rceil$ largest squared values to positive (even-indexed) positions and the remaining $\\lfloor n / 2 \\rfloor$ smallest squared values to negative (odd-indexed) positions. We accomplish this by computing the square of each element, sorting them, and subtracting the sum of the smaller half from the sum of the larger half.\n\nTime: O(n log n)\nSpace: O(n)"
  }
 }
