@@ -224,6 +224,28 @@
   "date": "2026-10-12",
   "notes": "Approach: Bitwise operations allow shifting set bits across numbers to construct larger numbers. We count the frequency of set bits at each position and construct the $k$ largest possible numbers by greedily placing set bits into the top elements.\nTime: O(N * B + K * B) where N is length of nums, K is given integer, and B = 30 is the number of bits.\nSpace: O(B) = O(1) auxiliary space to store bit counts."
  },
+ "3723": {
+  "id": "3723",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "4 ms",
+    "memory": "20.8 MB",
+    "rtPct": 74.0158,
+    "memPct": 97.6378
+   }
+  },
+  "title": "Maximize Sum of Squares of Digits",
+  "slug": "maximize-sum-of-squares-of-digits",
+  "difficulty": "Medium",
+  "dir": "Medium/3723-maximize-sum-of-squares-of-digits",
+  "topics": [
+   "Math",
+   "Greedy"
+  ],
+  "date": "2026-10-14"
+ },
  "3727": {
   "id": "3727",
   "langs": {
