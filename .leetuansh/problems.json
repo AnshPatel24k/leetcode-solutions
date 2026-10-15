@@ -224,6 +224,30 @@
   "date": "2026-10-12",
   "notes": "Approach: Bitwise operations allow shifting set bits across numbers to construct larger numbers. We count the frequency of set bits at each position and construct the $k$ largest possible numbers by greedily placing set bits into the top elements.\nTime: O(N * B + K * B) where N is length of nums, K is given integer, and B = 30 is the number of bits.\nSpace: O(B) = O(1) auxiliary space to store bit counts."
  },
+ "2913": {
+  "id": "2913",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "20 ms",
+    "memory": "19.3 MB",
+    "rtPct": 66.46130000000004,
+    "memPct": 59.69230000000001
+   }
+  },
+  "title": "Subarrays Distinct Element Sum of Squares I",
+  "slug": "subarrays-distinct-element-sum-of-squares-i",
+  "difficulty": "Easy",
+  "dir": "Easy/2913-subarrays-distinct-element-sum-of-squares-i",
+  "topics": [
+   "Array",
+   "Hash Table",
+   "Binary Indexed Tree",
+   "Segment Tree"
+  ],
+  "date": "2026-10-15"
+ },
  "3723": {
   "id": "3723",
   "langs": {

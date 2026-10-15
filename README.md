@@ -4,7 +4,7 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**11 solved** | Easy 4 | Medium 6 | Hard 1
+**12 solved** | Easy 5 | Medium 6 | Hard 1
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
@@ -17,6 +17,7 @@ this  is for the leetcode solutions
 | 2333 | [Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) | Medium | Array, Binary Search, Greedy, Sorting, Heap (Priority Queue) | [python3](Medium/2333-minimum-sum-of-squared-difference/solution.py) | 2026-10-10 |
 | 2778 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | Easy | Array, Enumeration | [python3](Easy/2778-sum-of-squares-of-special-elements/solution.py) | 2026-10-11 |
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Array, Hash Table, Greedy, Bit Manipulation | [python3](Hard/2897-apply-operations-on-array-to-maximize-sum-of-squares/solution.py) | 2026-10-12 |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | Easy | Array, Hash Table, Binary Indexed Tree, Segment Tree | [python3](Easy/2913-subarrays-distinct-element-sum-of-squares-i/solution.py) | 2026-10-15 |
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | Medium | Math, Greedy | [python3](Medium/3723-maximize-sum-of-squares-of-digits/solution.py) | 2026-10-14 |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | Medium | Array, Greedy, Sorting | [python3](Medium/3727-maximum-alternating-sum-of-squares/solution.py) | 2026-10-13 |
 
