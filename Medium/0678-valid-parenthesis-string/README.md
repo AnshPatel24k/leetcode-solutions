@@ -9,4 +9,4 @@
 
 | Language | Runtime | Memory |
 |---|---|---|
-| [python3](solution.py) | 0 ms (beats 100.0%) | 19.3 MB (beats 28.7%) |
+| [python3](solution.py) | 1 ms (beats 21.9%) | 18.6 MB (beats 100.0%) |
