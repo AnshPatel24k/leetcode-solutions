@@ -4,7 +4,7 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**13 solved** | Easy 5 | Medium 7 | Hard 1
+**14 solved** | Easy 5 | Medium 8 | Hard 1
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
@@ -12,6 +12,7 @@ this  is for the leetcode solutions
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | Array, Two Pointers, Sorting | [python3](Medium/0015-3sum/solution.py) | 2026-10-09 |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | Math, Binary Search, Newton's Method | [python3](Easy/0069-sqrtx/solution.py) | 2026-10-08 |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [python3](Easy/0100-same-tree/solution.py) | 2026-10-08 |
+| 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | String, Dynamic Programming, Stack, Greedy, Bracket Sequences | [python3](Medium/0678-valid-parenthesis-string/solution.py) | 2026-10-15 |
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | String, Stack, Bracket Sequences | [python3](Medium/0856-score-of-parentheses/solution.py) | 2026-10-15 |
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | String, Stack, Greedy, Bracket Sequences | [python3](Medium/0921-minimum-add-to-make-parentheses-valid/solution.py) | 2026-10-09 |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | Medium | String, Stack, Greedy, Bracket Sequences | [python3](Medium/1541-minimum-insertions-to-balance-a-parentheses-string/solution.py) | 2026-09-30 |
