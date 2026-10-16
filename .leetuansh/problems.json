@@ -296,6 +296,30 @@
   ],
   "date": "2026-10-15"
  },
+ "2916": {
+  "id": "2916",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "4946 ms",
+    "memory": "124.4 MB",
+    "rtPct": 24.13739999999994,
+    "memPct": 6.8959999999999475
+   }
+  },
+  "title": "Subarrays Distinct Element Sum of Squares II",
+  "slug": "subarrays-distinct-element-sum-of-squares-ii",
+  "difficulty": "Hard",
+  "dir": "Hard/2916-subarrays-distinct-element-sum-of-squares-ii",
+  "topics": [
+   "Array",
+   "Hash Table",
+   "Binary Indexed Tree",
+   "Segment Tree"
+  ],
+  "date": "2026-10-16"
+ },
  "3723": {
   "id": "3723",
   "langs": {
