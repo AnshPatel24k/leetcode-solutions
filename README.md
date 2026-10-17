@@ -4,7 +4,7 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**16 solved** | Easy 6 | Medium 8 | Hard 2
+**17 solved** | Easy 6 | Medium 9 | Hard 2
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
@@ -22,6 +22,7 @@ this  is for the leetcode solutions
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Array, Hash Table, Greedy, Bit Manipulation | [python3](Hard/2897-apply-operations-on-array-to-maximize-sum-of-squares/solution.py) | 2026-10-12 |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | Easy | Array, Hash Table, Binary Indexed Tree, Segment Tree | [python3](Easy/2913-subarrays-distinct-element-sum-of-squares-i/solution.py) | 2026-10-15 |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/) | Hard | Array, Hash Table, Binary Indexed Tree, Segment Tree | [python3](Hard/2916-subarrays-distinct-element-sum-of-squares-ii/solution.py) | 2026-10-16 |
+| 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | Medium | Array, Hash Table, Sorting | [python3](Medium/3551-minimum-swaps-to-sort-by-digit-sum/solution.py) | 2026-10-17 |
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | Medium | Math, Greedy | [python3](Medium/3723-maximize-sum-of-squares-of-digits/solution.py) | 2026-10-14 |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | Medium | Array, Greedy, Sorting | [python3](Medium/3727-maximum-alternating-sum-of-squares/solution.py) | 2026-10-13 |
 

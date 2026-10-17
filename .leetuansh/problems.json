@@ -344,6 +344,30 @@
   ],
   "date": "2026-10-16"
  },
+ "3551": {
+  "id": "3551",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "1206 ms",
+    "memory": "44.7 MB",
+    "rtPct": 46.90049999999984,
+    "memPct": 76.99059999999992
+   }
+  },
+  "title": "Minimum Swaps to Sort by Digit Sum",
+  "slug": "minimum-swaps-to-sort-by-digit-sum",
+  "difficulty": "Medium",
+  "dir": "Medium/3551-minimum-swaps-to-sort-by-digit-sum",
+  "topics": [
+   "Array",
+   "Hash Table",
+   "Sorting"
+  ],
+  "date": "2026-10-17",
+  "notes": "Approach: Compute digit sums, pair each element with its digit sum and original index, and sort to find the target permutation. Then, count the number of disjoint permutation cycles to compute the minimum swaps required as the sum of `(cycle_size - 1)`.\nTime: O(N log N)\nSpace: O(N)"
+ },
  "3723": {
   "id": "3723",
   "langs": {
