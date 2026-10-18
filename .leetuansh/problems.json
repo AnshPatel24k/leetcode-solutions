@@ -223,6 +223,37 @@
   "date": "2026-09-30",
   "notes": "An elegant greedy approach can be used to solve this problem. We can iterate through the string and keep track of two variables:\n1. `insertions`: the number of characters we need to insert to balance the string.\n2. `right_needed`: the number of right parentheses `)` we currently need to match the open parentheses `(` we have seen so far.\n\nSince each `(` needs two `)` to balance:\n- When we encounter a `(`, we need 2 more `)`. If our current `right_needed` is odd, it means there is a previous `(` that has only matched one `)`. Because we are now starting a new `(` group, we must immediately insert a `)` to complete the previous pair. Thus, we increment `insertions` by 1 and decrement `right_needed` by 1 before adding the 2 needed for the new `(`.\n- When we encounter a `)`, we decrement `right_needed` by 1. If `right_needed` becomes `-1` (meaning we got a `)` but had no unmatched `(`), we must insert a `(` before it. A `(` provides 2 `)`. Since we already consumed one `)`, we now need 1 more `)`. So we increment `insertions` by 1 and set `right_needed` to 1.\n\nAt the end of the string, any remaining `right_needed` represents the unmatched `)` that we must insert to balance the remaining open parentheses.\n\n\n\nApproach: We use a greedy approach with a single pass to count the required insertions and the number of right parentheses needed.\nTime: O(N) where N is the length of the string.\nSpace: O(1) auxiliary space."
  },
+ "1569": {
+  "id": "1569",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "43 ms",
+    "memory": "24 MB",
+    "rtPct": 52.146999999999956,
+    "memPct": 58.282099999999986
+   }
+  },
+  "title": "Number of Ways to Reorder Array to Get Same BST",
+  "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+  "difficulty": "Hard",
+  "dir": "Hard/1569-number-of-ways-to-reorder-array-to-get-same-bst",
+  "topics": [
+   "Array",
+   "Math",
+   "Divide and Conquer",
+   "Dynamic Programming",
+   "Tree",
+   "Union-Find",
+   "Binary Search Tree",
+   "Memoization",
+   "Combinatorics",
+   "Binary Tree",
+   "Fermat's Little Theorem"
+  ],
+  "date": "2026-10-18"
+ },
  "2333": {
   "id": "2333",
   "langs": {
