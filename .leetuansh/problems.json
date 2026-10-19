@@ -254,6 +254,30 @@
   ],
   "date": "2026-10-18"
  },
+ "2089": {
+  "id": "2089",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "1 ms",
+    "memory": "19.3 MB",
+    "rtPct": 33.4697,
+    "memPct": 24.19899999999999
+   }
+  },
+  "title": "Find Target Indices After Sorting Array",
+  "slug": "find-target-indices-after-sorting-array",
+  "difficulty": "Easy",
+  "dir": "Easy/2089-find-target-indices-after-sorting-array",
+  "topics": [
+   "Array",
+   "Binary Search",
+   "Sorting"
+  ],
+  "date": "2026-10-19",
+  "notes": "Approach: Count the number of elements strictly smaller than target and the number of elements equal to target; the target indices in the sorted array will be a contiguous range starting from the count of smaller elements.\nTime: O(N)\nSpace: O(1)"
+ },
  "2333": {
   "id": "2333",
   "langs": {

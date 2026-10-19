@@ -4,7 +4,7 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**18 solved** | Easy 6 | Medium 9 | Hard 3
+**19 solved** | Easy 7 | Medium 9 | Hard 3
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
@@ -18,6 +18,7 @@ this  is for the leetcode solutions
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | String, Stack, Greedy, Bracket Sequences | [python3](Medium/0921-minimum-add-to-make-parentheses-valid/solution.py) | 2026-10-09 |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | Medium | String, Stack, Greedy, Bracket Sequences | [python3](Medium/1541-minimum-insertions-to-balance-a-parentheses-string/solution.py) | 2026-09-30 |
 | 1569 | [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | Hard | Array, Math, Divide and Conquer, Dynamic Programming, Tree, Union-Find, Binary Search Tree, Memoization, Combinatorics, Binary Tree, Fermat's Little Theorem | [python3](Hard/1569-number-of-ways-to-reorder-array-to-get-same-bst/solution.py) | 2026-10-18 |
+| 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | Array, Binary Search, Sorting | [python3](Easy/2089-find-target-indices-after-sorting-array/solution.py) | 2026-10-19 |
 | 2333 | [Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) | Medium | Array, Binary Search, Greedy, Sorting, Heap (Priority Queue) | [python3](Medium/2333-minimum-sum-of-squared-difference/solution.py) | 2026-10-10 |
 | 2778 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | Easy | Array, Enumeration | [python3](Easy/2778-sum-of-squares-of-special-elements/solution.py) | 2026-10-11 |
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Array, Hash Table, Greedy, Bit Manipulation | [python3](Hard/2897-apply-operations-on-array-to-maximize-sum-of-squares/solution.py) | 2026-10-12 |
