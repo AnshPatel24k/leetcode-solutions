@@ -468,5 +468,29 @@
   ],
   "date": "2026-10-13",
   "notes": "Approach:\nTo maximize the alternating sum of squares, we assign the $\\lceil n / 2 \\rceil$ largest squared values to positive (even-indexed) positions and the remaining $\\lfloor n / 2 \\rfloor$ smallest squared values to negative (odd-indexed) positions. We accomplish this by computing the square of each element, sorting them, and subtracting the sum of the smaller half from the sum of the larger half.\n\nTime: O(n log n)\nSpace: O(n)"
+ },
+ "3886": {
+  "id": "3886",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "1503 ms",
+    "memory": "30.9 MB",
+    "rtPct": 56.04399999999998,
+    "memPct": 82.4176
+   }
+  },
+  "title": "Sum of Sortable Integers",
+  "slug": "sum-of-sortable-integers",
+  "difficulty": "Hard",
+  "dir": "Hard/3886-sum-of-sortable-integers",
+  "topics": [
+   "Array",
+   "Math",
+   "Sorting",
+   "Enumeration"
+  ],
+  "date": "2026-10-20"
  }
 }
