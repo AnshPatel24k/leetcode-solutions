@@ -469,6 +469,27 @@
   "date": "2026-10-13",
   "notes": "Approach:\nTo maximize the alternating sum of squares, we assign the $\\lceil n / 2 \\rceil$ largest squared values to positive (even-indexed) positions and the remaining $\\lfloor n / 2 \\rfloor$ smallest squared values to negative (odd-indexed) positions. We accomplish this by computing the square of each element, sorting them, and subtracting the sum of the smaller half from the sum of the larger half.\n\nTime: O(n log n)\nSpace: O(n)"
  },
+ "3863": {
+  "id": "3863",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "84 ms",
+    "memory": "20.1 MB",
+    "rtPct": 85.60580000000004,
+    "memPct": 45.45450000000002
+   }
+  },
+  "title": "Minimum Operations to Sort a String",
+  "slug": "minimum-operations-to-sort-a-string",
+  "difficulty": "Medium",
+  "dir": "Medium/3863-minimum-operations-to-sort-a-string",
+  "topics": [
+   "String"
+  ],
+  "date": "2026-10-21"
+ },
  "3886": {
   "id": "3886",
   "langs": {
