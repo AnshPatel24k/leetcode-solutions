@@ -513,5 +513,26 @@
    "Enumeration"
   ],
   "date": "2026-10-20"
+ },
+ "3942": {
+  "id": "3942",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "230 ms",
+    "memory": "32.2 MB",
+    "rtPct": 7.8647999999999385,
+    "memPct": 10.112300000000008
+   }
+  },
+  "title": "Minimum Operations to Sort a Permutation",
+  "slug": "minimum-operations-to-sort-a-permutation",
+  "difficulty": "Medium",
+  "dir": "Medium/3942-minimum-operations-to-sort-a-permutation",
+  "topics": [
+   "Array"
+  ],
+  "date": "2026-10-22"
  }
 }
