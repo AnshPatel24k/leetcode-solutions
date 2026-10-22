@@ -4,12 +4,13 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**22 solved** | Easy 7 | Medium 11 | Hard 4
+**23 solved** | Easy 7 | Medium 11 | Hard 5
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Array, Hash Table | [cpp](Easy/0001-two-sum/solution.cpp), [python3](Easy/0001-two-sum/solution.py) | 2026-04-15 |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | Array, Two Pointers, Sorting | [python3](Medium/0015-3sum/solution.py) | 2026-10-09 |
+| 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | String, Dynamic Programming, Stack, Bracket Sequences | [python3](Hard/0032-longest-valid-parentheses/solution.py) | 2026-10-22 |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | Math, Binary Search, Newton's Method | [python3](Easy/0069-sqrtx/solution.py) | 2026-10-08 |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [python3](Easy/0100-same-tree/solution.py) | 2026-10-08 |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Array, Hash Table, Sorting | [python3](Easy/0217-contains-duplicate/solution.py) | 2026-10-16 |

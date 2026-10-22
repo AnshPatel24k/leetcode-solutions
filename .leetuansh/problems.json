@@ -54,6 +54,31 @@
   "date": "2026-10-09",
   "notes": "Approach: Sort the array and use a three-pointer technique. Iterate through the array with a fixed element, and use a two-pointer approach for the remaining elements to find pairs that sum to the target. Skip duplicates to ensure the triplets are unique, and break early when the fixed element is positive.\nTime: O(n^2)\nSpace: O(n) for the sorting overhead in Python (Timsort) or O(1) if sorting in-place without auxiliary space."
  },
+ "32": {
+  "id": "32",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "9 ms",
+    "memory": "20.4 MB",
+    "rtPct": 56.3327,
+    "memPct": 62.436599999999984
+   }
+  },
+  "title": "Longest Valid Parentheses",
+  "slug": "longest-valid-parentheses",
+  "difficulty": "Hard",
+  "dir": "Hard/0032-longest-valid-parentheses",
+  "topics": [
+   "String",
+   "Dynamic Programming",
+   "Stack",
+   "Bracket Sequences"
+  ],
+  "date": "2026-10-22",
+  "notes": "Approach: Maintain a stack storing indices, initialized with -1 as a base. Push indices of '(' and pop for ')', updating the maximum length using the index remaining at the top of the stack, or pushing the current index if the stack becomes empty.\nTime: O(n)\nSpace: O(n)"
+ },
  "69": {
   "id": "69",
   "langs": {
