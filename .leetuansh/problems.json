@@ -14,9 +14,9 @@
     "lang": "python3",
     "file": "solution.py",
     "runtime": "0 ms",
-    "memory": "20.7 MB",
+    "memory": "20.1 MB",
     "rtPct": 100,
-    "memPct": 7.662399999999979
+    "memPct": 65.6746
    }
   },
   "title": "Two Sum",

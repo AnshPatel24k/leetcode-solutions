@@ -10,7 +10,7 @@
 | Language | Runtime | Memory |
 |---|---|---|
 | [cpp](solution.cpp) | 0 ms (beats 100.0%) | 14.9 MB (beats 44.7%) |
-| [python3](solution.py) | 0 ms (beats 100.0%) | 20.7 MB (beats 7.7%) |
+| [python3](solution.py) | 0 ms (beats 100.0%) | 20.1 MB (beats 65.7%) |
 
 ## Notes
 
