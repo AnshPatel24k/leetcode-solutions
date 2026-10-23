@@ -448,6 +448,29 @@
   "date": "2026-10-17",
   "notes": "Approach: Compute digit sums, pair each element with its digit sum and original index, and sort to find the target permutation. Then, count the number of disjoint permutation cycles to compute the minimum swaps required as the sum of `(cycle_size - 1)`.\nTime: O(N log N)\nSpace: O(N)"
  },
+ "3644": {
+  "id": "3644",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "36 ms",
+    "memory": "32 MB",
+    "rtPct": 41.75829999999998,
+    "memPct": 45.05499999999999
+   }
+  },
+  "title": "Maximum K to Sort a Permutation",
+  "slug": "maximum-k-to-sort-a-permutation",
+  "difficulty": "Medium",
+  "dir": "Medium/3644-maximum-k-to-sort-a-permutation",
+  "topics": [
+   "Array",
+   "Bit Manipulation"
+  ],
+  "date": "2026-10-23",
+  "notes": "Approach: Every misplaced element must participate in swaps, so $k$ must be a submask of all misplaced elements, making their bitwise AND $K$ the upper bound. Since $K \\in [0, n-1]$ exists in the permutation and satisfies $x \\text{ AND } K = K$ for all misplaced $x$, $K$ acts as a universal pivot to sort the array, making $K$ the maximum valid answer.\nTime: O(n)\nSpace: O(1)"
+ },
  "3723": {
   "id": "3723",
   "langs": {
