@@ -329,6 +329,33 @@
   "date": "2026-10-10",
   "notes": "Approach:\nWe compute the absolute differences between `nums1` and `nums2` and count their frequencies using a bucket array, since the maximum difference is at most $10^5$. We then greedily decrement the largest differences using our budget of $k = k1 + k2$ operations. Finally, we calculate the sum of the squared remaining differences.\n\nTime: O(N + M) where N is the length of the arrays and M is the maximum possible difference (10^5).\nSpace: O(M) to store the frequencies of the differences."
  },
+ "2357": {
+  "id": "2357",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "0 ms",
+    "memory": "19.2 MB",
+    "rtPct": 100,
+    "memPct": 84.31369999999998
+   }
+  },
+  "title": "Make Array Zero by Subtracting Equal Amounts",
+  "slug": "make-array-zero-by-subtracting-equal-amounts",
+  "difficulty": "Easy",
+  "dir": "Easy/2357-make-array-zero-by-subtracting-equal-amounts",
+  "topics": [
+   "Array",
+   "Hash Table",
+   "Greedy",
+   "Sorting",
+   "Heap (Priority Queue)",
+   "Simulation"
+  ],
+  "date": "2026-10-23",
+  "notes": "Approach: Count the number of unique positive elements in nums, as each operation can eliminate the smallest unique positive element.\nTime: O(N)\nSpace: O(N)"
+ },
  "2778": {
   "id": "2778",
   "langs": {
