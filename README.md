@@ -4,7 +4,7 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**25 solved** | Easy 8 | Medium 12 | Hard 5
+**26 solved** | Easy 9 | Medium 12 | Hard 5
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
@@ -22,6 +22,7 @@ this  is for the leetcode solutions
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | Array, Binary Search, Sorting | [python3](Easy/2089-find-target-indices-after-sorting-array/solution.py) | 2026-10-19 |
 | 2333 | [Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) | Medium | Array, Binary Search, Greedy, Sorting, Heap (Priority Queue) | [python3](Medium/2333-minimum-sum-of-squared-difference/solution.py) | 2026-10-10 |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | Easy | Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Simulation | [python3](Easy/2357-make-array-zero-by-subtracting-equal-amounts/solution.py) | 2026-10-23 |
+| 2409 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | Easy | Math, String | [python3](Easy/2409-count-days-spent-together/solution.py) | 2026-10-24 |
 | 2778 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | Easy | Array, Enumeration | [python3](Easy/2778-sum-of-squares-of-special-elements/solution.py) | 2026-10-11 |
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Array, Hash Table, Greedy, Bit Manipulation | [python3](Hard/2897-apply-operations-on-array-to-maximize-sum-of-squares/solution.py) | 2026-10-12 |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | Easy | Array, Hash Table, Binary Indexed Tree, Segment Tree | [python3](Easy/2913-subarrays-distinct-element-sum-of-squares-i/solution.py) | 2026-10-15 |

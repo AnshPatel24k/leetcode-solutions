@@ -356,6 +356,29 @@
   "date": "2026-10-23",
   "notes": "Approach: Count the number of unique positive elements in nums, as each operation can eliminate the smallest unique positive element.\nTime: O(N)\nSpace: O(N)"
  },
+ "2409": {
+  "id": "2409",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "0 ms",
+    "memory": "19.4 MB",
+    "rtPct": 100,
+    "memPct": 47.2658
+   }
+  },
+  "title": "Count Days Spent Together",
+  "slug": "count-days-spent-together",
+  "difficulty": "Easy",
+  "dir": "Easy/2409-count-days-spent-together",
+  "topics": [
+   "Math",
+   "String"
+  ],
+  "date": "2026-10-24",
+  "notes": "Approach:\nConvert each \"MM-DD\" date string to a 1-indexed day of the year using the month lengths of a non-leap year. The overlap between Alice's and Bob's stays is then the range between the maximum arrival day and the minimum departure day.\n\nTime: O(1)\nSpace: O(1)"
+ },
  "2778": {
   "id": "2778",
   "langs": {
