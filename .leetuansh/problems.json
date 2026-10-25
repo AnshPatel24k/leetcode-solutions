@@ -223,6 +223,32 @@
   ],
   "date": "2026-10-09"
  },
+ "1254": {
+  "id": "1254",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "14 ms",
+    "memory": "20 MB",
+    "rtPct": 79.72970000000001,
+    "memPct": 37.83769999999999
+   }
+  },
+  "title": "Number of Closed Islands",
+  "slug": "number-of-closed-islands",
+  "difficulty": "Medium",
+  "dir": "Medium/1254-number-of-closed-islands",
+  "topics": [
+   "Array",
+   "Depth-First Search",
+   "Breadth-First Search",
+   "Union-Find",
+   "Matrix"
+  ],
+  "date": "2026-10-25",
+  "notes": "Approach: First, use DFS to sink (turn to 1) all land cells connected to the grid boundaries, as they cannot form closed islands. Then, iterate through the inner cells and perform DFS to count and sink each remaining isolated island of land.\nTime: O(m * n)\nSpace: O(m * n)"
+ },
  "1541": {
   "id": "1541",
   "langs": {
