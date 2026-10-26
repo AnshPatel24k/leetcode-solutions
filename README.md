@@ -4,7 +4,7 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**27 solved** | Easy 9 | Medium 13 | Hard 5
+**28 solved** | Easy 9 | Medium 14 | Hard 5
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
@@ -29,6 +29,7 @@ this  is for the leetcode solutions
 | 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | Easy | Array, Hash Table, Binary Indexed Tree, Segment Tree | [python3](Easy/2913-subarrays-distinct-element-sum-of-squares-i/solution.py) | 2026-10-15 |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/) | Hard | Array, Hash Table, Binary Indexed Tree, Segment Tree | [python3](Hard/2916-subarrays-distinct-element-sum-of-squares-ii/solution.py) | 2026-10-16 |
 | 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | Medium | Array, Hash Table, Sorting | [python3](Medium/3551-minimum-swaps-to-sort-by-digit-sum/solution.py) | 2026-10-17 |
+| 3619 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) | Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | [python3](Medium/3619-count-islands-with-total-value-divisible-by-k/solution.py) | 2026-10-26 |
 | 3644 | [Maximum K to Sort a Permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/) | Medium | Array, Bit Manipulation | [python3](Medium/3644-maximum-k-to-sort-a-permutation/solution.py) | 2026-10-23 |
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | Medium | Math, Greedy | [python3](Medium/3723-maximize-sum-of-squares-of-digits/solution.py) | 2026-10-14 |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | Medium | Array, Greedy, Sorting | [python3](Medium/3727-maximum-alternating-sum-of-squares/solution.py) | 2026-10-13 |

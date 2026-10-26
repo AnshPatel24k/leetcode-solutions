@@ -524,6 +524,32 @@
   "date": "2026-10-17",
   "notes": "Approach: Compute digit sums, pair each element with its digit sum and original index, and sort to find the target permutation. Then, count the number of disjoint permutation cycles to compute the minimum swaps required as the sum of `(cycle_size - 1)`.\nTime: O(N log N)\nSpace: O(N)"
  },
+ "3619": {
+  "id": "3619",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "265 ms",
+    "memory": "30 MB",
+    "rtPct": 91.3795999999999,
+    "memPct": 97.58619999999999
+   }
+  },
+  "title": "Count Islands With Total Value Divisible by K",
+  "slug": "count-islands-with-total-value-divisible-by-k",
+  "difficulty": "Medium",
+  "dir": "Medium/3619-count-islands-with-total-value-divisible-by-k",
+  "topics": [
+   "Array",
+   "Depth-First Search",
+   "Breadth-First Search",
+   "Union-Find",
+   "Matrix"
+  ],
+  "date": "2026-10-26",
+  "notes": "Approach:\nWe traverse the grid and use iterative Breadth-First Search (BFS) to explore each unvisited island (cells with value > 0). While exploring an island, we mark visited cells by setting their grid value to 0 and sum up all cell values in the island, then check if the total sum is divisible by $k$.\n\nTime: O(m * n)\nSpace: O(m * n)"
+ },
  "3644": {
   "id": "3644",
   "langs": {
