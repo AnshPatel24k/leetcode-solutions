@@ -4,7 +4,7 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**28 solved** | Easy 9 | Medium 14 | Hard 5
+**29 solved** | Easy 9 | Medium 15 | Hard 5
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
@@ -34,6 +34,7 @@ this  is for the leetcode solutions
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | Medium | Math, Greedy | [python3](Medium/3723-maximize-sum-of-squares-of-digits/solution.py) | 2026-10-14 |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | Medium | Array, Greedy, Sorting | [python3](Medium/3727-maximum-alternating-sum-of-squares/solution.py) | 2026-10-13 |
 | 3863 | [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/) | Medium | String | [python3](Medium/3863-minimum-operations-to-sort-a-string/solution.py) | 2026-10-21 |
+| 3882 | [Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/) | Medium | Array, Dynamic Programming, Bit Manipulation, Matrix | [python3](Medium/3882-minimum-xor-path-in-a-grid/solution.py) | 2026-10-28 |
 | 3886 | [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | Hard | Array, Math, Sorting, Enumeration | [python3](Hard/3886-sum-of-sortable-integers/solution.py) | 2026-10-20 |
 | 3942 | [Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/) | Medium | Array | [python3](Medium/3942-minimum-operations-to-sort-a-permutation/solution.py) | 2026-10-22 |
 
