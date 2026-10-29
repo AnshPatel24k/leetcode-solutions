@@ -4,7 +4,7 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**29 solved** | Easy 9 | Medium 15 | Hard 5
+**30 solved** | Easy 9 | Medium 15 | Hard 6
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
@@ -33,6 +33,7 @@ this  is for the leetcode solutions
 | 3644 | [Maximum K to Sort a Permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/) | Medium | Array, Bit Manipulation | [python3](Medium/3644-maximum-k-to-sort-a-permutation/solution.py) | 2026-10-23 |
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | Medium | Math, Greedy | [python3](Medium/3723-maximize-sum-of-squares-of-digits/solution.py) | 2026-10-14 |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | Medium | Array, Greedy, Sorting | [python3](Medium/3727-maximum-alternating-sum-of-squares/solution.py) | 2026-10-13 |
+| 3841 | [Palindromic Path Queries in a Tree](https://leetcode.com/problems/palindromic-path-queries-in-a-tree/) | Hard | Array, String, Divide and Conquer, Bit Manipulation, Tree, Depth-First Search, Binary Indexed Tree, Segment Tree | [python3](Hard/3841-palindromic-path-queries-in-a-tree/solution.py) | 2026-10-29 |
 | 3863 | [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/) | Medium | String | [python3](Medium/3863-minimum-operations-to-sort-a-string/solution.py) | 2026-10-21 |
 | 3882 | [Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/) | Medium | Array, Dynamic Programming, Bit Manipulation, Matrix | [python3](Medium/3882-minimum-xor-path-in-a-grid/solution.py) | 2026-10-28 |
 | 3886 | [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | Hard | Array, Math, Sorting, Enumeration | [python3](Hard/3886-sum-of-sortable-integers/solution.py) | 2026-10-20 |

@@ -619,6 +619,35 @@
   "date": "2026-10-13",
   "notes": "Approach:\nTo maximize the alternating sum of squares, we assign the $\\lceil n / 2 \\rceil$ largest squared values to positive (even-indexed) positions and the remaining $\\lfloor n / 2 \\rfloor$ smallest squared values to negative (odd-indexed) positions. We accomplish this by computing the square of each element, sorting them, and subtracting the sum of the smaller half from the sum of the larger half.\n\nTime: O(n log n)\nSpace: O(n)"
  },
+ "3841": {
+  "id": "3841",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "2288 ms",
+    "memory": "121.1 MB",
+    "rtPct": 10.204799999999953,
+    "memPct": 16.327199999999966
+   }
+  },
+  "title": "Palindromic Path Queries in a Tree",
+  "slug": "palindromic-path-queries-in-a-tree",
+  "difficulty": "Hard",
+  "dir": "Hard/3841-palindromic-path-queries-in-a-tree",
+  "topics": [
+   "Array",
+   "String",
+   "Divide and Conquer",
+   "Bit Manipulation",
+   "Tree",
+   "Depth-First Search",
+   "Binary Indexed Tree",
+   "Segment Tree"
+  ],
+  "date": "2026-10-29",
+  "notes": "Approach:\nWe represent each character set on a path using a 26-bit integer mask where the $k$-th bit indicates whether character $k$ appears an odd number of times. Using Euler tour order (DFS entry/exit times), updating a node's character corresponds to XOR-ing a value over the subtree's range $[in[u], out[u]]$, which is maintained using a Fenwick tree configured for range XOR updates and point queries. LCA is queried in $O(1)$ time using an Euler Tour Sparse Table, making each update and query run in $O(\\log N)$ time.\n\nTime: O((N + Q) \\log N)\nSpace: O(N \\log N)"
+ },
  "3863": {
   "id": "3863",
   "langs": {
