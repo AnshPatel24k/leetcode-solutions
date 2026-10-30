@@ -738,5 +738,30 @@
    "Array"
   ],
   "date": "2026-10-22"
+ },
+ "3970": {
+  "id": "3970",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "280 ms",
+    "memory": "63.8 MB",
+    "rtPct": 77.10879999999989,
+    "memPct": 57.229499999999916
+   }
+  },
+  "title": "Shortest Path With At Most K Consecutive Identical Characters",
+  "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+  "difficulty": "Medium",
+  "dir": "Medium/3970-shortest-path-with-at-most-k-consecutive-identical-characters",
+  "topics": [
+   "String",
+   "Graph Theory",
+   "Heap (Priority Queue)",
+   "Shortest Path"
+  ],
+  "date": "2026-10-30",
+  "notes": "Approach:\nWe run Dijkstra's algorithm where each state is defined as `(node, count)`, representing the current node and the number of consecutive identical characters ending at that node. Moving from node `u` to node `v` increases `count` by 1 if `labels[u] == labels[v]`, or resets `count` to 1 if they differ, valid as long as `count <= k`.\n\nTime: O(k * (V + E) * log(k * V))\nSpace: O(k * V + E)"
  }
 }
