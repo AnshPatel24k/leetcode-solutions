@@ -762,6 +762,26 @@
   ],
   "date": "2026-10-22"
  },
+ "3963": {
+  "id": "3963",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "8 ms",
+    "memory": "19.2 MB",
+    "rtPct": 5.701300000000016,
+    "memPct": 49.80299999999999
+   }
+  },
+  "title": "Create Grid With Exactly One Path",
+  "slug": "create-grid-with-exactly-one-path",
+  "difficulty": "Easy",
+  "dir": "Easy/3963-create-grid-with-exactly-one-path",
+  "topics": [],
+  "date": "2026-10-31",
+  "notes": "Approach: Construct an L-shaped path of free cells along the first column and the bottom row, with all other cells set as obstacles to ensure exactly one path exists.\nTime: O(m * n)\nSpace: O(m * n)"
+ },
  "3970": {
   "id": "3970",
   "langs": {
