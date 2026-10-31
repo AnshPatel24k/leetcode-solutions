@@ -573,6 +573,29 @@
   "date": "2026-10-23",
   "notes": "Approach: Every misplaced element must participate in swaps, so $k$ must be a submask of all misplaced elements, making their bitwise AND $K$ the upper bound. Since $K \\in [0, n-1]$ exists in the permutation and satisfies $x \\text{ AND } K = K$ for all misplaced $x$, $K$ acts as a universal pivot to sort the array, making $K$ the maximum valid answer.\nTime: O(n)\nSpace: O(1)"
  },
+ "3665": {
+  "id": "3665",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "2975 ms",
+    "memory": "251.6 MB",
+    "rtPct": 32.478700000000195,
+    "memPct": 26.495800000000074
+   }
+  },
+  "title": "Twisted Mirror Path Count",
+  "slug": "twisted-mirror-path-count",
+  "difficulty": "Medium",
+  "dir": "Medium/3665-twisted-mirror-path-count",
+  "topics": [
+   "Array",
+   "Dynamic Programming",
+   "Matrix"
+  ],
+  "date": "2026-10-31"
+ },
  "3723": {
   "id": "3723",
   "langs": {

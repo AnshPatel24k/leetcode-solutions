@@ -4,7 +4,7 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**31 solved** | Easy 9 | Medium 16 | Hard 6
+**32 solved** | Easy 9 | Medium 17 | Hard 6
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
@@ -31,6 +31,7 @@ this  is for the leetcode solutions
 | 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | Medium | Array, Hash Table, Sorting | [python3](Medium/3551-minimum-swaps-to-sort-by-digit-sum/solution.py) | 2026-10-17 |
 | 3619 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) | Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | [python3](Medium/3619-count-islands-with-total-value-divisible-by-k/solution.py) | 2026-10-26 |
 | 3644 | [Maximum K to Sort a Permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/) | Medium | Array, Bit Manipulation | [python3](Medium/3644-maximum-k-to-sort-a-permutation/solution.py) | 2026-10-23 |
+| 3665 | [Twisted Mirror Path Count](https://leetcode.com/problems/twisted-mirror-path-count/) | Medium | Array, Dynamic Programming, Matrix | [python3](Medium/3665-twisted-mirror-path-count/solution.py) | 2026-10-31 |
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | Medium | Math, Greedy | [python3](Medium/3723-maximize-sum-of-squares-of-digits/solution.py) | 2026-10-14 |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | Medium | Array, Greedy, Sorting | [python3](Medium/3727-maximum-alternating-sum-of-squares/solution.py) | 2026-10-13 |
 | 3841 | [Palindromic Path Queries in a Tree](https://leetcode.com/problems/palindromic-path-queries-in-a-tree/) | Hard | Array, String, Divide and Conquer, Bit Manipulation, Tree, Depth-First Search, Binary Indexed Tree, Segment Tree | [python3](Hard/3841-palindromic-path-queries-in-a-tree/solution.py) | 2026-10-29 |
