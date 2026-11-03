@@ -151,6 +151,30 @@
   "date": "2026-10-16",
   "notes": "Approach: Convert the list into a hash set and check if the size of the set is smaller than the original list length.\nTime: O(N)\nSpace: O(N)"
  },
+ "462": {
+  "id": "462",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "2 ms",
+    "memory": "20.3 MB",
+    "rtPct": 88.7403,
+    "memPct": 92.54050000000001
+   }
+  },
+  "title": "Minimum Moves to Equal Array Elements II",
+  "slug": "minimum-moves-to-equal-array-elements-ii",
+  "difficulty": "Medium",
+  "dir": "Medium/0462-minimum-moves-to-equal-array-elements-ii",
+  "topics": [
+   "Array",
+   "Math",
+   "Sorting"
+  ],
+  "date": "2026-11-03",
+  "notes": "Approach: Sorting the array allows us to pair each element from the left with its corresponding element from the right. The minimum moves to make any pair equal is simply their difference, and summing these pairwise differences gives the minimum total moves (which implicitly uses the median as the target value).\nTime: O(n log n)\nSpace: O(1)"
+ },
  "678": {
   "id": "678",
   "langs": {
