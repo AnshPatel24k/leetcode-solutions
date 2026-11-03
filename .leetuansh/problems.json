@@ -792,9 +792,9 @@
     "lang": "python3",
     "file": "solution.py",
     "runtime": "8 ms",
-    "memory": "19.2 MB",
-    "rtPct": 5.701300000000016,
-    "memPct": 49.80299999999999
+    "memory": "19.1 MB",
+    "rtPct": 5.7523000000000035,
+    "memPct": 76.21099999999998
    }
   },
   "title": "Create Grid With Exactly One Path",
