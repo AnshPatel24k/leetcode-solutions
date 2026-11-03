@@ -4,7 +4,7 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**33 solved** | Easy 10 | Medium 17 | Hard 6
+**34 solved** | Easy 11 | Medium 17 | Hard 6
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
@@ -34,6 +34,7 @@ this  is for the leetcode solutions
 | 3665 | [Twisted Mirror Path Count](https://leetcode.com/problems/twisted-mirror-path-count/) | Medium | Array, Dynamic Programming, Matrix | [python3](Medium/3665-twisted-mirror-path-count/solution.py) | 2026-10-31 |
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | Medium | Math, Greedy | [python3](Medium/3723-maximize-sum-of-squares-of-digits/solution.py) | 2026-10-14 |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | Medium | Array, Greedy, Sorting | [python3](Medium/3727-maximum-alternating-sum-of-squares/solution.py) | 2026-10-13 |
+| 3736 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | Easy | Array, Math | [python3](Easy/3736-minimum-moves-to-equal-array-elements-iii/solution.py) | 2026-11-03 |
 | 3841 | [Palindromic Path Queries in a Tree](https://leetcode.com/problems/palindromic-path-queries-in-a-tree/) | Hard | Array, String, Divide and Conquer, Bit Manipulation, Tree, Depth-First Search, Binary Indexed Tree, Segment Tree | [python3](Hard/3841-palindromic-path-queries-in-a-tree/solution.py) | 2026-10-29 |
 | 3863 | [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/) | Medium | String | [python3](Medium/3863-minimum-operations-to-sort-a-string/solution.py) | 2026-10-21 |
 | 3882 | [Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/) | Medium | Array, Dynamic Programming, Bit Manipulation, Matrix | [python3](Medium/3882-minimum-xor-path-in-a-grid/solution.py) | 2026-10-28 |

@@ -642,6 +642,29 @@
   "date": "2026-10-13",
   "notes": "Approach:\nTo maximize the alternating sum of squares, we assign the $\\lceil n / 2 \\rceil$ largest squared values to positive (even-indexed) positions and the remaining $\\lfloor n / 2 \\rfloor$ smallest squared values to negative (odd-indexed) positions. We accomplish this by computing the square of each element, sorting them, and subtracting the sum of the smaller half from the sum of the larger half.\n\nTime: O(n log n)\nSpace: O(n)"
  },
+ "3736": {
+  "id": "3736",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "1 ms",
+    "memory": "19 MB",
+    "rtPct": 57.4359,
+    "memPct": 98.4615
+   }
+  },
+  "title": "Minimum Moves to Equal Array Elements III",
+  "slug": "minimum-moves-to-equal-array-elements-iii",
+  "difficulty": "Easy",
+  "dir": "Easy/3736-minimum-moves-to-equal-array-elements-iii",
+  "topics": [
+   "Array",
+   "Math"
+  ],
+  "date": "2026-11-03",
+  "notes": "Approach: Since we can only increment array elements, all elements must eventually equal the maximum element in the initial array to minimize total operations.\nTime: O(N)\nSpace: O(1)"
+ },
  "3841": {
   "id": "3841",
   "langs": {
