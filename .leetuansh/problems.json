@@ -524,6 +524,32 @@
   ],
   "date": "2026-10-16"
  },
+ "3505": {
+  "id": "3505",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "3664 ms",
+    "memory": "36.9 MB",
+    "rtPct": 67.30729999999991,
+    "memPct": 100
+   }
+  },
+  "title": "Minimum Operations to Make Elements Within K Subarrays Equal",
+  "slug": "minimum-operations-to-make-elements-within-k-subarrays-equal",
+  "difficulty": "Hard",
+  "dir": "Hard/3505-minimum-operations-to-make-elements-within-k-subarrays-equal",
+  "topics": [
+   "Array",
+   "Hash Table",
+   "Math",
+   "Dynamic Programming",
+   "Sliding Window",
+   "Heap (Priority Queue)"
+  ],
+  "date": "2026-11-04"
+ },
  "3551": {
   "id": "3551",
   "langs": {
