@@ -273,6 +273,31 @@
   "date": "2026-10-25",
   "notes": "Approach: First, use DFS to sink (turn to 1) all land cells connected to the grid boundaries, as they cannot form closed islands. Then, iterate through the inner cells and perform DFS to count and sink each remaining isolated island of land.\nTime: O(m * n)\nSpace: O(m * n)"
  },
+ "1385": {
+  "id": "1385",
+  "langs": {
+   "py": {
+    "lang": "python3",
+    "file": "solution.py",
+    "runtime": "4 ms",
+    "memory": "19 MB",
+    "rtPct": 92.2308,
+    "memPct": 96.2264
+   }
+  },
+  "title": "Find the Distance Value Between Two Arrays",
+  "slug": "find-the-distance-value-between-two-arrays",
+  "difficulty": "Easy",
+  "dir": "Easy/1385-find-the-distance-value-between-two-arrays",
+  "topics": [
+   "Array",
+   "Two Pointers",
+   "Binary Search",
+   "Sorting"
+  ],
+  "date": "2026-11-05",
+  "notes": "Approach:\nSort `arr2` and for each element `x` in `arr1`, use binary search to check if there exists any element in `arr2` within the range `[x - d, x + d]`. If no such element exists, `x` contributes to the distance value.\n\nTime: O((M + N) log M), where N is the length of `arr1` and M is the length of `arr2`.\nSpace: O(M) or O(1) auxiliary space used for sorting `arr2`."
+ },
  "1541": {
   "id": "1541",
   "langs": {

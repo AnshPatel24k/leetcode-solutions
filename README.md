@@ -4,7 +4,7 @@ this  is for the leetcode solutions
 <!-- LEETUANSH:START -->
 ## Progress
 
-**36 solved** | Easy 11 | Medium 18 | Hard 7
+**37 solved** | Easy 12 | Medium 18 | Hard 7
 
 | # | Problem | Difficulty | Topics | Solutions | Solved |
 |---|---|---|---|---|---|
@@ -19,6 +19,7 @@ this  is for the leetcode solutions
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | String, Stack, Bracket Sequences | [python3](Medium/0856-score-of-parentheses/solution.py) | 2026-10-15 |
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | String, Stack, Greedy, Bracket Sequences | [python3](Medium/0921-minimum-add-to-make-parentheses-valid/solution.py) | 2026-10-09 |
 | 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | [python3](Medium/1254-number-of-closed-islands/solution.py) | 2026-10-25 |
+| 1385 | [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | Easy | Array, Two Pointers, Binary Search, Sorting | [python3](Easy/1385-find-the-distance-value-between-two-arrays/solution.py) | 2026-11-05 |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | Medium | String, Stack, Greedy, Bracket Sequences | [python3](Medium/1541-minimum-insertions-to-balance-a-parentheses-string/solution.py) | 2026-09-30 |
 | 1569 | [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | Hard | Array, Math, Divide and Conquer, Dynamic Programming, Tree, Union-Find, Binary Search Tree, Memoization, Combinatorics, Binary Tree, Fermat's Little Theorem | [python3](Hard/1569-number-of-ways-to-reorder-array-to-get-same-bst/solution.py) | 2026-10-18 |
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | Array, Binary Search, Sorting | [python3](Easy/2089-find-target-indices-after-sorting-array/solution.py) | 2026-10-19 |
